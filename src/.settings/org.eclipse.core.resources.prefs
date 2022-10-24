@@ -1,2 +1,12 @@
 eclipse.preferences.version=1
 encoding//ch2_1017/CharacterEx1.java=UTF-8
+encoding//duckWorld/Duck.java=UTF-8
+encoding//duckWorld/FlyBehavior.java=UTF-8
+encoding//duckWorld/FlyNoWay.java=UTF-8
+encoding//duckWorld/FlyRocketPowered.java=UTF-8
+encoding//duckWorld/FlyWithWings.java=UTF-8
+encoding//duckWorld/MallardDuck.java=UTF-8
+encoding//duckWorld/MiniDuckSimulator.java=UTF-8
+encoding//duckWorld/ModelDuck.java=UTF-8
+encoding//duckWorld/MuteQuack.java=UTF-8
+encoding//duckWorld/Quack.java=UTF-8

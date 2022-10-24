@@ -4,7 +4,7 @@ public class FlyRocketPowered implements FlyBehavior {
 
 	@Override
 	public void fly() {
-		System.out.println("·ÎÄÏ ÃßÁøÀ¸·Î ³¯¾Æ°¡±â~~");
+		System.out.println("ë¡œì¼“ ì¶”ì§„ìœ¼ë¡œ ë‚ ì•„ê°€ê¸°~~");
 	}
 
 }

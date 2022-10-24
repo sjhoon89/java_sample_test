@@ -8,7 +8,7 @@ public class ModelDuck extends Duck {
 
 	@Override
 	public void display() {
-		System.out.println("Àú´Â ¸ðÇü ¿À¸®ÀÔ´Ï´Ù.");
+		System.out.println("ì €ëŠ” ëª¨í˜• ì˜¤ë¦¬ìž…ë‹ˆë‹¤.");
 	}
 
 }

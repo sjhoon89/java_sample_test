@@ -1,7 +1,7 @@
 package gameCharacterWeaponWorld;
 
 public abstract class Character {
-	//´Ù¸¥ Ä³¸¯ÅÍ°¡ °øÀ¯ÇÏ´Â Ãß»óÅ¬·¡½º ¿ªÇÒ. 
+	//ë‹¤ë¥¸ ìºë¦­í„°ê°€ ê³µìœ í•˜ëŠ” ì¶”ìƒí´ë˜ìŠ¤ ì—­í• . 
 	WeaponBehavior weapon;
 	
 	public abstract void fight();
