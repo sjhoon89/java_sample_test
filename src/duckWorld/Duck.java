@@ -22,7 +22,7 @@ public abstract class Duck {
 		swimBehavior.swim();
 	}
 	
-	//¸Ş¼Òµå 2°³ Ãß°¡. fly Çàµ¿ ÀÎÅÍÆäÀÌ½º, quack Çàµ¿ ÀÎÅÍÆäÀÌ½º ¸Å°³º¯¼ö·Î ¹Ş¾Æ ¼³Á¤ÇÏ´Â 
+	//ë©”ì†Œë“œ 2ê°œ ì¶”ê°€. fly í–‰ë™ ì¸í„°í˜ì´ìŠ¤, quack í–‰ë™ ì¸í„°í˜ì´ìŠ¤ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ ì„¤ì •í•˜ëŠ” 
 	
 	public void setFlyBehavior(FlyBehavior fb) {
 		flyBehavior = fb;
@@ -35,7 +35,7 @@ public abstract class Duck {
 	}
 	
 	public void swim () {
-		System.out.println("¸ğµç ¿À¸®´Â ¹°¿¡ ¶å´Ï´Ù. °¡Â¥ ¿À¸®µµ ¶ßÁÒ");
+		System.out.println("ëª¨ë“  ì˜¤ë¦¬ëŠ” ë¬¼ì— ëœ¹ë‹ˆë‹¤. ê°€ì§œ ì˜¤ë¦¬ë„ ëœ¨ì£ ");
 	}
 
 }
