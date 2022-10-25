@@ -14,7 +14,8 @@ public class SwingObserverExample {
 	public void go() {
 		frame = new JFrame();
 
-		JButton button = new JButton("Should I do it?");
+		JButton button = new JButton("천사?");
+		JButton button2 = new JButton("악마?");
 		
 		// Without lambdas
 		//button.addActionListener(new AngelListener());
@@ -22,17 +23,19 @@ public class SwingObserverExample {
 		
 		// With lambdas
 		button.addActionListener(event -> 
-			System.out.println("Don't do it, you might regret it!")
+			System.out.println("하지마 후회해!")
 		);
-		button.addActionListener(event ->
-			System.out.println("Come on, do it!")
+		button2.addActionListener(event ->
+			System.out.println("한번 해봐 ㅋㅋ")
 		);
 		frame.getContentPane().add(BorderLayout.CENTER, button);
+		frame.getContentPane().add(BorderLayout.EAST, button2);
+		frame.setLayout(new FlowLayout(FlowLayout.CENTER));
 
 		// Set frame properties 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().add(BorderLayout.CENTER, button);
-		frame.setSize(300,300);
+//		frame.getContentPane().add(BorderLayout.CENTER, button);
+		frame.setSize(300,100);
 		frame.setVisible(true);
 	}
 	
