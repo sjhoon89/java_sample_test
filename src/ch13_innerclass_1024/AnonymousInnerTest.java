@@ -1,7 +1,7 @@
 package ch13_innerclass_1024;
 
 class Outter2{
-		
+	
 	Runnable getRunnable(int i){
 
 		int num = 100;
@@ -10,8 +10,8 @@ class Outter2{
 				
 		@Override
 		public void run() {
-			//num = 200;   //���� ��
-			//i = 10;      //���� ��
+			//num = 200;   //에러 남
+			//i = 10;      //에러 남
 			System.out.println(i);
 			System.out.println(num);
 			}
@@ -22,7 +22,7 @@ class Outter2{
 		
 		@Override
 		public void run() {
-			System.out.println("Runnable �� ������ �͸� Ŭ���� ����");
+			System.out.println("Runnable 이 구현된 익명 클래스 변수");
 			
 		}
 	};
