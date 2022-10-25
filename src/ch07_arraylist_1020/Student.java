@@ -1,4 +1,4 @@
-package cho07_arraylist_1020;
+package ch07_arraylist_1020;
 
 import java.util.ArrayList;
 
