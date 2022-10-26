@@ -9,8 +9,8 @@ public class FileCopyTest {
 	public static void main(String[] args) {
 
 		long millisecond = 0;
-		try(FileInputStream fis = new FileInputStream("a.zip");
-				FileOutputStream fos = new FileOutputStream("copy.zip")){
+		try(FileInputStream fis = new FileInputStream("output2.txt");
+				FileOutputStream fos = new FileOutputStream("copy2.txt")){
 		
 			millisecond = System.currentTimeMillis();
 			
@@ -24,6 +24,6 @@ public class FileCopyTest {
 			e.printStackTrace();
 		}
 		
-		System.out.println("���� ���� �ϴ� �� " + millisecond + " milliseconds �ҿ�Ǿ����ϴ�.");
+		System.out.println("측정 " + millisecond + " milliseconds 소요.");
 	}
 }

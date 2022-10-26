@@ -7,7 +7,8 @@ public class FileTest {
 
 	public static void main(String[] args) throws IOException {
 
-		File file = new File("D:\\easyspub\\JAVA_LAB\\Chapter15\\newFile.txt");
+//		File file = new File("C:\\Temp\\newFile.txt");
+		File file = new File("C:\\Java_Workspace\\Java_EX\\src\\ch15_stream\\others_1025\\newFile.txt");
 		file.createNewFile();
 		
 		System.out.println(file.isFile());
@@ -18,6 +19,16 @@ public class FileTest {
 		System.out.println(file.canRead());
 		System.out.println(file.canWrite());
 		
-		file.delete();
+		//file.delete();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
