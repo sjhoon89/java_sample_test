@@ -23,7 +23,10 @@ public class ImageProxyTestDrive {
 		albums.put("Northern Exposure","http://images.amazon.com/images/P/B000003SFN.01.LZZZZZZZ.jpg");
 		albums.put("Selected Ambient Works, Vol. 2","http://images.amazon.com/images/P/B000002MNZ.01.LZZZZZZZ.jpg");
 
-		URL initialURL = new URL((String)albums.get("Selected Ambient Works, Vol. 2"));
+		//URL initialURL = new URL((String)albums.get("Selected Ambient Works, Vol. 2"));
+		//URL initialURL = new URL((String)albums.get("Buddha Bar"));
+		//URL initialURL = new URL((String)albums.get("Ima"));
+		URL initialURL = new URL((String)albums.get("Karma"));
 		menuBar = new JMenuBar();
 		menu = new JMenu("Favorite Albums");
 		menuBar.add(menu);
